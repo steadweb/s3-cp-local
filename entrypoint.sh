@@ -12,3 +12,5 @@ aws_secret_access_key = ${AWS_SECRET_ACCESS_KEY}" > ~/.aws/credentials
 aws s3 cp s3://${AWS_S3_BUCKET}/${SOURCE} --region ${AWS_REGION} ${DESTINATION}
 
 rm -rf ~/.aws
+
+ls -lah
